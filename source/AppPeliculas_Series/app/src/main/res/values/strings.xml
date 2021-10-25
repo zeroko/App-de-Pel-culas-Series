@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App Peliculas_Series</string>
+    <string name="generar_token">Generar Token</string>
+    <string name="text_hardcode">"esta es una descripción"</string>
+    <string name="aprobar">Sera redirigigo a el sitio TMDb Por Favor! apruebe el token y regresa a la App.</string>
+    <string name="aprobación_TMDb">https://www.themoviedb.org/auth/access?request_token=</string>
+    <string name="hipervinculo">Clic aquí</string>
+</resources>

@@ -1,0 +1,20 @@
+ext.endpoints = [:]
+
+def oauth = [:]
+    def debugOAuth = [:]
+        debugOAuth.url  = "\"https://api.themoviedb.org/4/\""
+        debugOAuth.token  = "\"Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyYzhiYTEwYmI3ZWM4NjYwZTU1N2U3NzZmYzIyNjhiMCIsInN1YiI6IjYxNzU3ZGIxMTcyZDdmMDAyZWZiODQ0MCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.a8jPoJEvu_W_eH3PYm6vZs499hoIKMDgZZzN7djkLww\""
+    oauth.debugOAuth = debugOAuth
+
+    //Están pendientes los datos para release
+    def releaseOAuth = [:]
+        releaseOAuth.url  = "\"https://api.themoviedb.org/4/\""
+        releaseOAuth.token  = "\"Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyYzhiYTEwYmI3ZWM4NjYwZTU1N2U3NzZmYzIyNjhiMCIsInN1YiI6IjYxNzU3ZGIxMTcyZDdmMDAyZWZiODQ0MCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.a8jPoJEvu_W_eH3PYm6vZs499hoIKMDgZZzN7djkLww\""
+    oauth.releaseOAuth = releaseOAuth
+
+    //Están pendientes los datos para qa
+    def qaOAuth = [:]
+        qaOAuth.url  = "\"https://api.themoviedb.org/4/\""
+        qaOAuth.token  = "\"Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyYzhiYTEwYmI3ZWM4NjYwZTU1N2U3NzZmYzIyNjhiMCIsInN1YiI6IjYxNzU3ZGIxMTcyZDdmMDAyZWZiODQ0MCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.a8jPoJEvu_W_eH3PYm6vZs499hoIKMDgZZzN7djkLww\""
+    oauth.qaOAuth = qaOAuth
+endpoints.oauth = oauth
